@@ -1,8 +1,18 @@
 # MTG Deck Analyzer User Guide
 
 ## Getting Started
+1. Ensure node and npm are installed: 
+```bash
+sudo apt-get install npm
+or
+sudo pacman -S npm
+```
+2. Navigate to the root directory and run the following command to make sure local dependencies are installed:
+```
+npm i
+```
 
-1. Start the program:
+3. Start the program:
 ```bash
 npm run dev
 ```
